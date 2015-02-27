@@ -1,0 +1,28 @@
+{
+  "name": "awesomeProject",
+  "version": "0.1.0",
+  "description": "Testing how to bundle an RPM file",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elfido/testRPMproject"
+  },
+  "keywords": [
+    "test",
+    "rpm",
+    "nodejs"
+  ],
+  "author": "Fido",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elfido/testRPMproject/issues"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-easy-rpm": "^1.5.3",
+    "shortid": "^2.0.1"
+  }
+}

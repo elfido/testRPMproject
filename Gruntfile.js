@@ -2,15 +2,16 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 	  easy_rpm: {
 	    options: {
-	        name: 'My RPM',
+	        name: "Fido_RPM",
 	        version: "0.1.0",
 	        release: "1",
 	        buildArch: "x86_64",
-	        requires: ["nodejs >= 0.10.22"]
+	        requires: ["nodejs >= 0.10.22"],
+	        rpmDestination: "dist"
 	    },
 	    release: {
 		    files: {
-		        '/home/fido/rpmsample': ['lib/**/*.js', 'node_modules/**/*', 'index.js', 'package.json']
+		        '/opt/nodesample': ['lib/**/*.js', 'node_modules/**/*', 'index.js', 'package.json']
 		    }
 	    }
 	  }
